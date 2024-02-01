@@ -62,17 +62,17 @@ except FileNotFoundError:
 
 
 
-response = requests.get("https://raw.githubusercontent.com/modymesourceze/ZeCollection/main/ze-telethon-cl.py")
+response = requests.get("https://raw.githubusercontent.com/modymesourceze/CollectZe/main/ze-telethon-cl.py")
 
 with open('ze-telethon-cl.py', 'w') as file:
     file.write(response.text)
 
-responsee = requests.get("https://raw.githubusercontent.com/modymesourceze/ZeCollection/main/zekalb.py")
+responsee = requests.get("https://raw.githubusercontent.com/modymesourceze/CollectZe/main/zekalb.py")
 
 with open('zekalb.py', 'w') as file:
     file.write(responsee.text)
 
-responseee = requests.get("https://raw.githubusercontent.com/modymesourceze/ZeCollection/main/run.py")
+responseee = requests.get("https://raw.githubusercontent.com/modymesourceze/CollectZe/main/run.py")
 
 with open('run.py', 'w') as file:
     file.write(responseee.text)
